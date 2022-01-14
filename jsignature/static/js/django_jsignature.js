@@ -4,7 +4,7 @@
       var config = $(this).data('config');
       var value = $(this).data('initial-value');
       $(this).jSignature(config);
-      $(this).jSignature("setData", value, "base30");
+      $(this).jSignature("setData", value, "native");
     });
 
     /* Each time user is done drawing a stroke, update value of hidden input */
